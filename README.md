@@ -29,13 +29,4 @@ This is **not a production framework** — it’s a personal learning repo.
 
 ---
 
-## 📁 Project Structure (example)
 
-```text
-.
-├── cmd/            # Application entry points
-├── internal/       # Internal application logic
-├── migrations/     # Database migrations
-├── .env.example    # Example environment variables
-├── .gitignore
-└── README.md
