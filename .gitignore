@@ -1,0 +1,67 @@
+# =====================
+# Go build artifacts
+# =====================
+bin/
+build/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# =====================
+# Go workspace & cache
+# =====================
+vendor/
+*.mod.cache
+
+# =====================
+# Environment variables
+# =====================
+.env
+.env.*
+!.env.example
+
+# =====================
+# Docker
+# =====================
+docker-data/
+docker-volume/
+**/docker-data/
+**/docker-volume/
+
+# =====================
+# Database
+# =====================
+*.db
+*.sqlite
+*.sqlite3
+
+# =====================
+# Migrate (golang-migrate)
+# =====================
+migrate.log
+
+# =====================
+# Logs
+# =====================
+*.log
+logs/
+tmp/
+
+# =====================
+# OS / Editor junk
+# =====================
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =====================
+# Test coverage
+# =====================
+coverage.out
